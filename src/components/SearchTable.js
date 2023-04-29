@@ -33,7 +33,7 @@ export const SearchTable = ({ retrieveData, tableTitle }) => {
       setError("");
     } else {
       setRows([]);
-      setError("No games with such a genre/platform");
+      setError("No games with such a genre/platform.");
     }
   };
 
